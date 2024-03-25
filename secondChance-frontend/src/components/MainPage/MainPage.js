@@ -61,7 +61,7 @@ function MainPage() {
                                 {item.image ? (
                                     // <img src={urlConfig.backendUrl+item.image} alt={item.name} />
                                     // <img src="https://jkaewprateep-3000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/images/sample1.png" alt={item.name} />
-                                    <img src={"https://jkaewprateep-3000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai" + item.image} alt={item.name} />                                  
+                                    <img src={"https://jkaewprateep-9000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai" + item.image} alt={item.name} />                                  
                                     ) : (
                                     <div className="no-image-available">No Image Available</div>
                                 )}

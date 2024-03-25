@@ -61,7 +61,7 @@ function DetailsPage() {
                     <div className="image-placeholder-large">
                         {gift.image ? (
                             // <img src={urlConfig.backendUrl+gift.image} alt={gift.name} className="product-image-large" />
-                            <img src={"https://jkaewprateep-3000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai" + gift.image} alt={gift.name} />
+                            <img src={"https://jkaewprateep-9000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai" + gift.image} alt={gift.name} />
                         ) : (
                             <div className="no-image-available-large">No Image Available</div>
                         )}
