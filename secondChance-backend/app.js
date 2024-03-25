@@ -5,6 +5,7 @@ const cors = require('cors');
 const pinoLogger = require('./logger');
 
 const connectToDatabase = require('./models/db');
+const authRoutes = require('./routes/authRoutes');
 const {loadData} = require("./util/import-mongo/index");
 
 
@@ -20,6 +21,7 @@ connectToDatabase().then(() => {
 
 
 app.use(express.json());
+app.use('/api/auth', authRoutes);
 
 // Route files
 
